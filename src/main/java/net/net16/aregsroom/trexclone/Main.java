@@ -8,7 +8,7 @@ import org.newdawn.slick.AppGameContainer;
 public class Main {
     public static void main(String[] args) {
         try {
-            Utils.gameSpeed=3;
+            Utils.gameSpeed=4;
             AppGameContainer appgc = new AppGameContainer(new Game());
             appgc.setDisplayMode(850,300,false);
             appgc.start();

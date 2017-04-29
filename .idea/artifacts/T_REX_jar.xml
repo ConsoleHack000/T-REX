@@ -8,8 +8,6 @@
       <element id="module-output" name="T-REX" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libs/jars/lwjgl.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libs/jars/slick.jar" path-in-jar="/" />
-      <element id="library" level="project" name="lwjgl" />
-      <element id="library" level="project" name="slick" />
     </root>
   </artifact>
 </component>

@@ -5,8 +5,6 @@
     </CLASSES>
     <JAVADOC />
     <NATIVE>
-      <root url="file://$PROJECT_DIR$/../libs/natives/macosx" />
-      <root url="file://$PROJECT_DIR$/../libs/natives/windows" />
       <root url="file://$PROJECT_DIR$/../libs/natives/linux" />
     </NATIVE>
     <SOURCES />

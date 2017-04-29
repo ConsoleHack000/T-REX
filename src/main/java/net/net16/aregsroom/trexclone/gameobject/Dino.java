@@ -33,7 +33,7 @@ public class Dino extends GameObject {
     public void update(GameContainer gameContainer, StateBasedGame stateBasedGame, int i) {
         y+=motY;
         y = Utils.clamp(y,0,225-64);
-        motY+=0.7;
+        motY+=0.5;
         if(!crouching){
             if(++leftToChange==ticksToChange){
                 texturePhase=!texturePhase;
@@ -44,9 +44,17 @@ public class Dino extends GameObject {
     }
     public boolean jump(){
         if(y==225-64) {
-            motY = -10;
+            motY = -9.5f;
             return true;
         }
         return false;
+    }
+    public boolean down(){
+        if(y<225-64){
+            motY=30;
+            return true;
+        }
+        return false;
+
     }
 }

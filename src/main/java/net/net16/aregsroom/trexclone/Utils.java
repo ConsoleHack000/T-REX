@@ -8,7 +8,11 @@ import org.newdawn.slick.SpriteSheet;
  * Created by areg on 4/26/17.
  */
 public class Utils {
-    public static boolean gameStarted;
+    /**
+     * 0 for not started,
+     * 1 for playing,
+     * 2 for lost**/
+    public static int gameState;
     public static float gameSpeed;
     public static Image ground;
     public static SpriteSheet dino_stand;
